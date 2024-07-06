@@ -1,6 +1,9 @@
 package main
 
-import variable "github.com/natersland/go-exercise/pkg/01-variable"
+import (
+	variable "github.com/natersland/go-exercise/pkg/01-variable"
+	typeconversion "github.com/natersland/go-exercise/pkg/02-type-conversion"
+)
 
 func main() {
 	variableExercise := variable.NewVariableExercise()
@@ -15,5 +18,13 @@ func main() {
 	variableExercise.Swapper()
 	variableExercise.Swapper2()
 	variableExercise.DiscardTheFile()
+
+	typeconversionExercise := typeconversion.NewTypeConversion()
+
+	typeconversionExercise.ConvertAndFix1()
+	typeconversionExercise.ConvertAndFix2()
+	typeconversionExercise.ConvertAndFix3()
+	typeconversionExercise.ConvertAndFix4()
+	typeconversionExercise.ConvertAndFix5()
 
 }
