@@ -1,7 +1,7 @@
 package main
 
 import (
-	stringexercise "github.com/natersland/go-exercise/pkg/04-string-exercise"
+	iotaexercise "github.com/natersland/go-exercise/pkg/05-iota-exercise"
 )
 
 func main() {
@@ -31,14 +31,19 @@ func main() {
 	// cmdArgsExercise.GreetMorePeople()
 	// cmdArgsExercise.GreetFivePeople()
 
-	stringExercise := stringexercise.NewStringExercise()
-	stringExercise.WindowPath()
-	stringExercise.PrintJSON()
-	stringExercise.RawConcat()
-	stringExercise.CountTheChars()
-	stringExercise.ImprovedBanger()
-	stringExercise.ToLowercase()
-	stringExercise.TrimIt()
-	stringExercise.RightTrimIt()
+	// stringExercise := stringexercise.NewStringExercise()
+	// stringExercise.WindowPath()
+	// stringExercise.PrintJSON()
+	// stringExercise.RawConcat()
+	// stringExercise.CountTheChars()
+	// stringExercise.ImprovedBanger()
+	// stringExercise.ToLowercase()
+	// stringExercise.TrimIt()
+	// stringExercise.RightTrimIt()
+
+	iotaEx := iotaexercise.NewIOTAExercise()
+	iotaEx.IOTAMonths()
+	iotaEx.IOTAMonths2()
+	iotaEx.IOTASeasons()
 
 }
