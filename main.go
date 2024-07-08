@@ -1,7 +1,7 @@
 package main
 
 import (
-	iotaexercise "github.com/natersland/go-exercise/pkg/05-iota-exercise"
+	printfex "github.com/natersland/go-exercise/pkg/06-printf-ex"
 )
 
 func main() {
@@ -41,9 +41,21 @@ func main() {
 	// stringExercise.TrimIt()
 	// stringExercise.RightTrimIt()
 
-	iotaEx := iotaexercise.NewIOTAExercise()
-	iotaEx.IOTAMonths()
-	iotaEx.IOTAMonths2()
-	iotaEx.IOTASeasons()
+	// iotaEx := iotaexercise.NewIOTAExercise()
+	// iotaEx.IOTAMonths()
+	// iotaEx.IOTAMonths2()
+	// iotaEx.IOTASeasons()
+
+	printfex := printfex.NewPrintfEx()
+	printfex.PrintYourAge()
+	printfex.PrintYourNameAndLastName()
+	printfex.FalseClaims()
+	printfex.PrintTheTemperature()
+	printfex.DoubleQuotes()
+	printfex.PrintTheType()
+	printfex.PrintTheType2()
+	printfex.PrintTheType3()
+	printfex.PrintTheType4()
+	printfex.PrintYourFullName()
 
 }
