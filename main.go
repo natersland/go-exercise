@@ -1,7 +1,7 @@
 package main
 
 import (
-	printfex "github.com/natersland/go-exercise/pkg/06-printf-ex"
+	ifstatementex "github.com/natersland/go-exercise/pkg/07-if-statement-ex"
 )
 
 func main() {
@@ -46,16 +46,24 @@ func main() {
 	// iotaEx.IOTAMonths2()
 	// iotaEx.IOTASeasons()
 
-	printfex := printfex.NewPrintfEx()
-	printfex.PrintYourAge()
-	printfex.PrintYourNameAndLastName()
-	printfex.FalseClaims()
-	printfex.PrintTheTemperature()
-	printfex.DoubleQuotes()
-	printfex.PrintTheType()
-	printfex.PrintTheType2()
-	printfex.PrintTheType3()
-	printfex.PrintTheType4()
-	printfex.PrintYourFullName()
+	// printfex := printfex.NewPrintfEx()
+	// printfex.PrintYourAge()
+	// printfex.PrintYourNameAndLastName()
+	// printfex.FalseClaims()
+	// printfex.PrintTheTemperature()
+	// printfex.DoubleQuotes()
+	// printfex.PrintTheType()
+	// printfex.PrintTheType2()
+	// printfex.PrintTheType3()
+	// printfex.PrintTheType4()
+	// printfex.PrintYourFullName()
+
+	ifstatementex := ifstatementex.NewIfStatementEx()
+	ifstatementex.AgeSeasons(68)
+	ifstatementex.SimplifyIt()
+	ifstatementex.ArgCount()
+	ifstatementex.VowelOrConsonant()
+	ifstatementex.Challenge1()
+	ifstatementex.Challenge2()
 
 }
